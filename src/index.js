@@ -38,7 +38,7 @@ const styles = {
                             <input className='input' name="password" type='password' placeholder='Password' required/>
                             </div>
                             <div className='form-group row'>
-                            <button className='button' type='submit'>Log In</button>
+                            <button className='button' type='submit'>SIGN IN</button>
                             </div>
                             <div className='form-group row'>
                             <button className='button' type='button' onClick={this.handleSingUp}>Sign Up</button>
@@ -88,6 +88,10 @@ const styles = {
                 </div>
                 <div className='form-group row'>
                 <button className='button' type='submit'>Save</button>
+                </div><br />
+                              </div>
+                <div className='form-group row'>
+                <button className='button' type='submit'>Back to Login</button>
                 </div>
             </form>
         </div>
